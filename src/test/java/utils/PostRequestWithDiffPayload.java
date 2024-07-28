@@ -97,9 +97,9 @@ public class PostRequestWithDiffPayload {
                 "last_name", "Gore",
                 "avatar", "https://reqres.in/img/faces/7-image.jpg");
 
-//        post.postRequestWithMap(map);
-//        post.postRequestUsingOrgJson();
-//        post.postRequestUsingPojoClass();
+        post.postRequestWithMap(map);
+        post.postRequestUsingOrgJson();
+        post.postRequestUsingPojoClass();
         post.postRequestUsingJsonFile("src/test/java/utils/payload.json");
     }
 
